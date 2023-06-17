@@ -9,23 +9,28 @@
     android:paddingBottom="16dp"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/openUrlButton"
-        android:layout_width="331dp"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="296dp"
+        android:layout_height="217dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:onClick="Youtube"
-        android:text="Youtube" />
+        android:layout_marginTop="72dp"
+        android:clickable="true"
+        android:onClick="onImageClick"
+        android:src="@drawable/nct_1" />
 
-    <Button
-        android:id="@+id/openGoogleButton"
-        android:layout_width="331dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/openUrlButton"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="301dp"
+        android:layout_height="186dp"
+        android:layout_below="@id/imageView1"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
-        android:onClick="Google"
-        android:text="Google" />
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="177dp"
+        android:clickable="true"
+        android:onClick="onImageClick"
+        android:src="@drawable/nct_2" />
 
 </RelativeLayout>
